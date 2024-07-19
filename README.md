@@ -1,4 +1,6 @@
 ## What does this do?
+A simple function based atomic operations alternative for Arduino
+
 This simple library allows the user to pass any function to `ATOMIC_OPERATION`, which will automatically disable then re-enable interrupts upon execution of the passed function. 
 
 ## Why would I use this?
