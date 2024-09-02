@@ -17,6 +17,6 @@
 template<typename Func>
 void ATOMIC_OPERATION(Func func);
 
-#include "atomic.tpp"
+#include "../src/atomic.tpp"
 
 #endif
